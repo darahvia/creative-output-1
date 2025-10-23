@@ -137,9 +137,9 @@ const IdentityRoomsApp = () => {
   };
 
   const groupMembers = [
-    { name: 'Christine Pagunsan', color: '#3b82f6' },
-    { name: 'Darah Via Moscoso', color: '#a855f7' },
-    { name: 'Gerianne Burgos', color: '#ec4899' }
+    { name: 'Person A', color: '#3b82f6' },
+    { name: 'Person B', color: '#a855f7' },
+    { name: 'Person C', color: '#ec4899' }
   ];
 
   const rooms = {
@@ -147,7 +147,7 @@ const IdentityRoomsApp = () => {
       title: 'Family Home',
       description: 'Where you grew up, with parents and siblings',
       data: {
-        'Christine': {
+        'Person A': {
           performance: 'Obedient, respectful, seeks approval',
           reality: 'Feels pressure to meet expectations, sometimes resentful',
           dialogue: '"Yes, Mom. I finished my homework."',
@@ -157,7 +157,7 @@ const IdentityRoomsApp = () => {
           concepts: ['Socialization agents', 'Looking glass self', 'Role expectations'],
           memory: 'Kitchen table where family meals happen'
         },
-        'Darah Via Moscoso': {
+        'Person B': {
           performance: 'Peacemaker, mediates between siblings',
           reality: 'Exhausted from managing family dynamics',
           dialogue: '"Let\'s all just calm down and talk about this."',
@@ -167,7 +167,7 @@ const IdentityRoomsApp = () => {
           concepts: ['Interdependent self-construal', 'Reflexivity', 'Agency'],
           memory: 'Living room where conflicts are resolved'
         },
-        'Gerianne Burgos': {
+        'Person C': {
           performance: 'Independent, pushes boundaries',
           reality: 'Navigating tension between autonomy and belonging',
           dialogue: '"I want to do this my own way."',
@@ -183,7 +183,7 @@ const IdentityRoomsApp = () => {
       title: 'Classroom',
       description: 'Academic environment with teachers and peers',
       data: {
-        'Christine': {
+        'Person A': {
           performance: 'Model student, participates actively',
           reality: 'Performs for grades, not genuine interest',
           dialogue: '"Can I answer, teacher?"',
@@ -193,7 +193,7 @@ const IdentityRoomsApp = () => {
           concepts: ['Front/backstage (Goffman)', 'Social self (Cooley)', 'Reflexivity'],
           memory: 'Winning an award in front of the class'
         },
-        'Darah Via Moscoso': {
+        'Person B': {
           performance: 'Social connector, helps struggling peers',
           reality: 'Sometimes hides own struggles to help others',
           dialogue: '"Do you want me to explain this?"',
@@ -203,7 +203,7 @@ const IdentityRoomsApp = () => {
           concepts: ['Collective values', 'Mead\'s "me"', 'Embodied self'],
           memory: 'Group project that created lasting friendships'
         },
-        'Gerianne Burgos': {
+        'Person C': {
           performance: 'Quiet observer, cynical about system',
           reality: 'Questions authority and conventional thinking',
           dialogue: '"Why do we need to memorize this?"',
@@ -219,7 +219,7 @@ const IdentityRoomsApp = () => {
       title: 'Workplace',
       description: 'Professional environment with colleagues',
       data: {
-        'Christine': {
+        'Person A': {
           performance: 'Ambitious professional, strives for promotion',
           reality: 'Fears failure, overworks to prove worth',
           dialogue: '"I\'ll take on that extra project."',
@@ -229,7 +229,7 @@ const IdentityRoomsApp = () => {
           concepts: ['Corporate socialization', 'Embodied self', 'I vs. me'],
           memory: 'First day anxiety in a new office'
         },
-        'Darah Via Moscoso': {
+        'Person B': {
           performance: 'Reliable team player, collaborates easily',
           reality: 'Sometimes sacrifices own ideas for consensus',
           dialogue: '"Let\'s work together. What do you think?"',
@@ -239,7 +239,7 @@ const IdentityRoomsApp = () => {
           concepts: ['Interdependent self', 'Code-switching', 'Reflexivity'],
           memory: 'Team-building event where felt belonged'
         },
-        'Gerianne Burgos': {
+        'Person C': {
           performance: 'Competent but detached, follows own path',
           reality: 'Struggles with conformity to workplace culture',
           dialogue: '"I did it differently, but results are same."',
@@ -255,7 +255,7 @@ const IdentityRoomsApp = () => {
       title: 'Social Gathering',
       description: 'With friends in casual social setting',
       data: {
-        'Christine': {
+        'Person A': {
           performance: 'Funny, relaxed, "real version" of self',
           reality: 'Still somewhat curating image',
           dialogue: '"That\'s so me!"',
@@ -265,7 +265,7 @@ const IdentityRoomsApp = () => {
           concepts: ['Backstage self', 'Looking glass self', 'Agency (choice of friends)'],
           memory: 'Inside jokes that define the friend group'
         },
-        'Darah Via Moscoso': {
+        'Person B': {
           performance: 'Center of social activity, entertainer',
           reality: 'Uses humor to avoid vulnerability',
           dialogue: '"Let me tell you what happened..."',
@@ -275,7 +275,7 @@ const IdentityRoomsApp = () => {
           concepts: ['Social self emerges', 'Reflexivity', 'Collective memory'],
           memory: 'Becoming known for making others laugh'
         },
-        'Gerianne Burgos': {
+        'Person C': {
           performance: 'Authentic self, fewer masks',
           reality: 'Selective about who sees this side',
           dialogue: '"I actually care deeply about this."',
