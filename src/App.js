@@ -137,7 +137,7 @@ const IdentityRoomsApp = () => {
   };
 
   const groupMembers = [
-    { name: 'Person A', color: '#3b82f6' },
+    { name: 'Christine Pagunsan', color: '#3b82f6' },
     { name: 'Person B', color: '#a855f7' },
     { name: 'Person C', color: '#ec4899' }
   ];
@@ -147,7 +147,7 @@ const IdentityRoomsApp = () => {
       title: 'Family Home',
       description: 'Where you grew up, with parents and siblings',
       data: {
-        'Person A': {
+        'Christine Pagunsan': {
           performance: 'Obedient, respectful, seeks approval',
           reality: 'Feels pressure to meet expectations, sometimes resentful',
           dialogue: '"Yes, Mom. I finished my homework."',
@@ -183,7 +183,7 @@ const IdentityRoomsApp = () => {
       title: 'Classroom',
       description: 'Academic environment with teachers and peers',
       data: {
-        'Person A': {
+        'Christine Pagunsan': {
           performance: 'Model student, participates actively',
           reality: 'Performs for grades, not genuine interest',
           dialogue: '"Can I answer, teacher?"',
@@ -219,7 +219,7 @@ const IdentityRoomsApp = () => {
       title: 'Workplace',
       description: 'Professional environment with colleagues',
       data: {
-        'Person A': {
+        'Christine Pagunsan': {
           performance: 'Ambitious professional, strives for promotion',
           reality: 'Fears failure, overworks to prove worth',
           dialogue: '"I\'ll take on that extra project."',
@@ -255,7 +255,7 @@ const IdentityRoomsApp = () => {
       title: 'Social Gathering',
       description: 'With friends in casual social setting',
       data: {
-        'Person A': {
+        'Christine Pagunsan': {
           performance: 'Funny, relaxed, "real version" of self',
           reality: 'Still somewhat curating image',
           dialogue: '"That\'s so me!"',
