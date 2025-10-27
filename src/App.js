@@ -1,4 +1,16 @@
 import React, { useState } from 'react';
+import darahFamily from './assets/images/darah_family.png';
+import darahSchool from './assets/images/darah_school.png';
+import darahFriends from './assets/images/darah_friends.png';
+import tineFamily from './assets/images/tine_family.png';
+import tineSchool from './assets/images/tine_school.png';
+import tineFriends from './assets/images/tine_friends.png';
+import gerFamily from './assets/images/ger_family.png';
+import gerSchool from './assets/images/ger_school.png';
+import gerFriends from './assets/images/ger_friends.png';
+//
+
+
 import { ChevronRight, Home, BookOpen, Briefcase, Users } from 'lucide-react';
 
 const IdentityRoomsApp = () => {
@@ -122,12 +134,6 @@ const IdentityRoomsApp = () => {
       accent: '#3b82f6',
       button: '#06b6d4'
     },
-    workplace: {
-      bg: '#f1f5f9',
-      text: '#0f172a',
-      accent: '#64748b',
-      button: '#475569'
-    },
     social: {
       bg: '#ffe4e6',
       text: '#831843',
@@ -148,34 +154,37 @@ const IdentityRoomsApp = () => {
       description: 'Where you grew up, with parents and siblings',
       data: {
         'Christine Jean Pagunsan': {
-          performance: 'Obedient, respectful, seeks approval',
-          reality: 'Feels pressure to meet expectations, sometimes resentful',
-          dialogue: '"Yes, Mom. I finished my homework."',
-          bodyLanguage: 'Sits upright, makes eye contact with parents',
+          image: tineFamily, 
+          performance: 'Obedient, Understanding, and Independent',
+          reality: 'Anxious, Stubborn, and Impatient',
+          dialogue: '"Yes, I’ve got this, and I will help you find a way to fix that problem as well."',
+          bodyLanguage: 'Sits upright, maintains respectful posture, and uses slow movements and gestures.',
           values: ['Family duty', 'Respect', 'Achievement'],
-          comfort: '70%',
+          comfort: '80%',
           concepts: ['Socialization agents', 'Looking glass self', 'Role expectations'],
-          memory: 'Kitchen table where family meals happen'
+          memory: 'A chaotic and loud home, steeped in collective memories of food and dancing.'
         },
         'Darah Via Moscoso': {
-          performance: 'Peacemaker, mediates between siblings',
-          reality: 'Exhausted from managing family dynamics',
-          dialogue: '"Let\'s all just calm down and talk about this."',
-          bodyLanguage: 'Open posture, constantly adjusting to others',
-          values: ['Harmony', 'Connection', 'Understanding'],
-          comfort: '60%',
-          concepts: ['Interdependent self-construal', 'Reflexivity', 'Agency'],
-          memory: 'Living room where conflicts are resolved'
+          image: darahFamily, 
+          performance: 'Quietly independent, values respect and kindness in interactions',
+          reality: 'Feels disconnected and nostalgic for the family warmth once shared when the father was alive',
+          dialogue: '“It’s okay, I can handle things on my own.”',
+          bodyLanguage: 'Composed, reserved posture; prefers staying in their own space',
+          values: ['Respect', 'Independence', 'Kindness'],
+          comfort: '50%',
+          concepts: ['Independent Self-Construal', 'Interdependent self-construal (remnants of Filipino values)', 'Collective memory'],
+          memory: 'Dining table that once symbolized unity but now reminds of loss and change'
         },
         'Gerianne Gayle Burgos': {
-          performance: 'Independent, pushes boundaries',
-          reality: 'Navigating tension between autonomy and belonging',
-          dialogue: '"I want to do this my own way."',
-          bodyLanguage: 'Slightly withdrawn, defensive posture',
-          values: ['Independence', 'Self-determination', 'Authenticity'],
-          comfort: '50%',
-          concepts: ['Negotiation with culture', 'Agency and resistance', 'Embodied self'],
-          memory: 'Bedroom as refuge space'
+          image: gerFamily,
+          performance: 'Talkative, Nurturing, and Obedient',
+          reality: 'Indecisive, Independent, and Emotionally Reserved',
+          dialogue: '“I’ll help out if you need me.”',
+          bodyLanguage: 'Expressive when engaged in conversation, often smiling or moving around; quiet and withdrawn only during conflict or when retreating to quiet spaces for rest.',
+          values: ['Critical thinking', 'Authenticity', 'Challenge'],
+          comfort: '85%',
+          concepts: ['Reflexivity (questioning)', 'Agency (resistance)', 'Power dynamics'],
+          memory: 'A loving home where members are often physically apart but always show up for one another when needed, marked by gentle care, and calm understanding.'
         }
       }
     },
@@ -184,70 +193,37 @@ const IdentityRoomsApp = () => {
       description: 'Academic environment with teachers and peers',
       data: {
         'Christine Jean Pagunsan': {
-          performance: 'Model student, participates actively',
-          reality: 'Performs for grades, not genuine interest',
-          dialogue: '"Can I answer, teacher?"',
-          bodyLanguage: 'Hand raised, leaning forward',
+          image: tineSchool,
+          performance: 'Engaged, Friendly, and Lively',
+          reality: 'Enjoys tasks involving public speaking/presentation; dislikes technical subjects ',
+          dialogue: '"I can lead the presentation/discussion for the group."',
+          bodyLanguage: 'Open and expansive gestures, maintains a confident posture, and eye contact with the teacher and classmates',
           values: ['Achievement', 'Recognition', 'Excellence'],
-          comfort: '75%',
+          comfort: '60%',
           concepts: ['Front/backstage (Goffman)', 'Social self (Cooley)', 'Reflexivity'],
-          memory: 'Winning an award in front of the class'
+          memory: 'A space associated with the thrill of public performance, yet the specific course activity generates significant stress.'
         },
         'Darah Via Moscoso': {
+          image: darahSchool,
           performance: 'Social connector, helps struggling peers',
           reality: 'Sometimes hides own struggles to help others',
-          dialogue: '"Do you want me to explain this?"',
+          dialogue: '"Tudluan taka?"',
           bodyLanguage: 'Relaxed, approachable, turned toward peers',
           values: ['Cooperation', 'Helping', 'Social harmony'],
-          comfort: '80%',
+          comfort: '10%',
           concepts: ['Collective values', 'Mead\'s "me"', 'Embodied self'],
           memory: 'Group project that created lasting friendships'
         },
         'Gerianne Gayle Burgos': {
-          performance: 'Quiet observer, cynical about system',
-          reality: 'Questions authority and conventional thinking',
-          dialogue: '"Why do we need to memorize this?"',
-          bodyLanguage: 'Slouched, back of classroom',
-          values: ['Critical thinking', 'Authenticity', 'Challenge'],
-          comfort: '45%',
-          concepts: ['Reflexivity (questioning)', 'Agency (resistance)', 'Power dynamics'],
-          memory: 'Being labeled "difficult" by a teacher'
-        }
-      }
-    },
-    workplace: {
-      title: 'Workplace',
-      description: 'Professional environment with colleagues',
-      data: {
-        'Christine Jean Pagunsan': {
-          performance: 'Ambitious professional, strives for promotion',
-          reality: 'Fears failure, overworks to prove worth',
-          dialogue: '"I\'ll take on that extra project."',
-          bodyLanguage: 'Formal attire, composed demeanor',
-          values: ['Ambition', 'Professionalism', 'Success'],
-          comfort: '65%',
-          concepts: ['Corporate socialization', 'Embodied self', 'I vs. me'],
-          memory: 'First day anxiety in a new office'
-        },
-        'Darah Via Moscoso': {
-          performance: 'Reliable team player, collaborates easily',
-          reality: 'Sometimes sacrifices own ideas for consensus',
-          dialogue: '"Let\'s work together. What do you think?"',
-          bodyLanguage: 'Engaged in conversations, shares space',
-          values: ['Teamwork', 'Reliability', 'Connection'],
-          comfort: '78%',
-          concepts: ['Interdependent self', 'Code-switching', 'Reflexivity'],
-          memory: 'Team-building event where felt belonged'
-        },
-        'Gerianne Gayle Burgos': {
-          performance: 'Competent but detached, follows own path',
-          reality: 'Struggles with conformity to workplace culture',
-          dialogue: '"I did it differently, but results are same."',
-          bodyLanguage: 'Professional but minimalist',
-          values: ['Competence', 'Autonomy', 'Authenticity'],
-          comfort: '55%',
-          concepts: ['Negotiation with institutions', 'Agency', 'Embodied resistance'],
-          memory: 'Clash with manager over "the right way"'
+          image: gerSchool,
+          performance: 'Quiet, Polite, and Selectively Active',
+          reality: 'Engages deeply only in subjects or tasks she enjoys, such as reporting, public speaking, or designing; tends to lose focus or motivation with heavy paperwork or readings.',
+          dialogue: '"I’ll do the creative or presentation part instead."',
+          bodyLanguage: 'Usually calm and composed, but becomes expressive and animated when discussing or performing something she likes.',
+          values: ['Authenticity', 'Depth', 'True connection'],
+          comfort: '60%',
+          concepts: ['Agency (chosen friend group)', 'Mead\'s "I"', 'Reflexivity'],
+          memory: 'A space associated with effortful composure, bursts of enthusiasm during creative moments, and fatigue from routine academic demands.'
         }
       }
     },
@@ -256,34 +232,37 @@ const IdentityRoomsApp = () => {
       description: 'With friends in casual social setting',
       data: {
         'Christine Jean Pagunsan': {
-          performance: 'Funny, relaxed, "real version" of self',
-          reality: 'Still somewhat curating image',
-          dialogue: '"That\'s so me!"',
-          bodyLanguage: 'Laughing, animated, comfortable gestures',
+          image: tineFriends,
+          performance: 'Sociable, Energetic, and Witty',
+          reality: 'Values intimate company of close friends; prioritizes solitude and self-reflection (self-dates).',
+          dialogue: '"We should do something fun',
+          bodyLanguage: 'Confident stride; projects positive energy and a bright, consistent smile.',
           values: ['Authenticity', 'Fun', 'Belonging'],
-          comfort: '85%',
+          comfort: '90%',
           concepts: ['Backstage self', 'Looking glass self', 'Agency (choice of friends)'],
-          memory: 'Inside jokes that define the friend group'
+          memory: 'Places of active social networking (e.g., organizational events, sports, hosting); she views it as sites for gaining new perspectives and skills.'
         },
         'Darah Via Moscoso': {
-          performance: 'Center of social activity, entertainer',
-          reality: 'Uses humor to avoid vulnerability',
-          dialogue: '"Let me tell you what happened..."',
-          bodyLanguage: 'Central position, expressive, energetic',
-          values: ['Humor', 'Connection', 'Being needed'],
-          comfort: '82%',
-          concepts: ['Social self emerges', 'Reflexivity', 'Collective memory'],
-          memory: 'Becoming known for making others laugh'
+          image: darahFriends,
+          performance: 'Lively, talkative, and expressive',
+          reality: 'Worries about saying the wrong thing and being misunderstood, but values genuine connection',
+          dialogue: '“Dai dai dai may sturya ko bala”',
+          bodyLanguage: 'Animated gestures, open face, leans in when listening',
+          values: ['Authenticity', 'Connection', 'Fun', 'Understanding'],
+          comfort: '100%',
+          concepts: ['Interdependent Self-Construal', 'Reflexivity', 'Social Identity Theory'],
+          memory: 'Moments of laughter while preparing together for a beach trip'
         },
         'Gerianne Gayle Burgos': {
-          performance: 'Authentic self, fewer masks',
-          reality: 'Selective about who sees this side',
-          dialogue: '"I actually care deeply about this."',
-          bodyLanguage: 'Relaxed but intentional, deeper conversations',
+          image: gerFriends,
+          performance: 'Energetic, Animated, and Approachable',
+          reality: 'EEmpathetic and reflective; enjoys deep connections but values time alone to recharge.',
+          dialogue: '"Let’s go! I’m down for anything."',
+          bodyLanguage: ' Expressive hands, lively tone, and bright facial expressions; projects energy and attentiveness toward others.',
           values: ['Authenticity', 'Depth', 'True connection'],
-          comfort: '88%',
+          comfort: '95%',
           concepts: ['Agency (chosen friend group)', 'Mead\'s "I"', 'Reflexivity'],
-          memory: 'Late-night conversations where truly revealed'
+          memory: 'Gatherings filled with laughter, storytelling, and companionship; she associates these with connection, understanding, and shared experiences.'
         }
       }
     }
@@ -406,6 +385,8 @@ const IdentityRoomsApp = () => {
   return (
     <div style={{ ...styles.container, backgroundColor: roomColors_current.bg }}>
       <div style={styles.maxWidth}>
+
+
         <button
           onClick={() => setCurrentRoom(null)}
           style={styles.backButton}
@@ -431,6 +412,22 @@ const IdentityRoomsApp = () => {
             />
           ))}
         </div>
+{/* IMAGE CONTAINER */}
+{roomData.image && (
+  <div style={{ textAlign: 'center', marginBottom: '24px' }}>
+    <img
+      src={roomData.image} 
+      alt={`${groupMembers[currentPerson].name} - ${room.title}`}
+      style={{
+        width: '1200px',
+        height: '450px',
+        objectFit: 'cover',
+        borderRadius: '12px',
+        boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
+      }}
+    />
+  </div>
+)}
 
         {/* CONTENT */}
         <div style={styles.contentArea}>
