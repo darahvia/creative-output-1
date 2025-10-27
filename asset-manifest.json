@@ -1,15 +1,24 @@
 {
   "files": {
     "main.css": "/creative-output-1/static/css/main.e6c13ad2.css",
-    "main.js": "/creative-output-1/static/js/main.cb516dea.js",
+    "main.js": "/creative-output-1/static/js/main.2ebe3579.js",
     "static/js/453.d29fcee9.chunk.js": "/creative-output-1/static/js/453.d29fcee9.chunk.js",
+    "static/media/tine_family.png": "/creative-output-1/static/media/tine_family.9c787ef922d93f1718e8.png",
+    "static/media/tine_friends.png": "/creative-output-1/static/media/tine_friends.bf4e97754f78db67f77a.png",
+    "static/media/darah_school.png": "/creative-output-1/static/media/darah_school.5d998c16dc336edbee07.png",
+    "static/media/ger_family.png": "/creative-output-1/static/media/ger_family.4b75ce6ed3b2cd1d78ad.png",
+    "static/media/darah_family.png": "/creative-output-1/static/media/darah_family.bc6d2a93d3c42ef6899b.png",
+    "static/media/ger_friends.png": "/creative-output-1/static/media/ger_friends.e1e12d0274fba24bc041.png",
+    "static/media/darah_friends.png": "/creative-output-1/static/media/darah_friends.c4641b68acec270dc31e.png",
+    "static/media/ger_school.png": "/creative-output-1/static/media/ger_school.a5de2dc4a05e3cfbd795.png",
+    "static/media/tine_school.png": "/creative-output-1/static/media/tine_school.bd58f63e75dab3e0639c.png",
     "index.html": "/creative-output-1/index.html",
     "main.e6c13ad2.css.map": "/creative-output-1/static/css/main.e6c13ad2.css.map",
-    "main.cb516dea.js.map": "/creative-output-1/static/js/main.cb516dea.js.map",
+    "main.2ebe3579.js.map": "/creative-output-1/static/js/main.2ebe3579.js.map",
     "453.d29fcee9.chunk.js.map": "/creative-output-1/static/js/453.d29fcee9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.cb516dea.js"
+    "static/js/main.2ebe3579.js"
   ]
 }
