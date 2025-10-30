@@ -559,21 +559,6 @@ const IdentityRoomsApp = () => {
           ) : (
             <div>
               <h2 style={styles.heading2}>Reflection & Analysis</h2>
-              
-              <div style={{
-                ...styles.box,
-                borderLeftColor: '#6366f1',
-                backgroundColor: '#eef2ff',
-                marginBottom: '20px',
-                marginTop: '20px'
-              }}>
-                <h3 style={{ color: '#3730a3' }}>Goffman's Front/Backstage Performance</h3>
-                <p style={{ color: '#374151', marginTop: '8px' }}>
-                  The gap between "public performance" and "private reality" demonstrates Erving Goffman's concept 
-                  of front-stage and back-stage selves. In the {room.title.toLowerCase()}, {groupMembers[currentPerson].name.toLowerCase()} 
-                  manages their impression by controlling information revealed to others.
-                </p>
-              </div>
 
               <div style={{
                 ...styles.box,
@@ -583,8 +568,7 @@ const IdentityRoomsApp = () => {
               }}>
                 <h3 style={{ color: '#1e40af' }}>Mead's "I" and "Me"</h3>
                 <p style={{ color: '#374151', marginTop: '8px' }}>
-                  The "I" is the spontaneous, creative self. The "me" is how they perceive others perceive them. 
-                  The discomfort level reflects tension between these two aspects in this particular social context.
+ Our website shows how people balance who they really are with how they think they should act. The public performance part represents the “Me,” or the side that follows social expectations, while the private reality shows the “I,” or the more natural and personal self. Together, they show how identity shifts between being true to oneself and fitting into different situations.
                 </p>
               </div>
 
@@ -596,8 +580,7 @@ const IdentityRoomsApp = () => {
               }}>
                 <h3 style={{ color: '#15803d' }}>Cooley's Looking Glass Self</h3>
                 <p style={{ color: '#374151', marginTop: '8px' }}>
-                  Charles Horton Cooley argued the self emerges through imagining how we appear to others. 
-                  The values and behaviors prioritized in {room.title.toLowerCase()} reflect internalization of this group's "gaze."
+The things said, the body language, and the comfort levels in the descriptions show how people see themselves through others’ eyes. Each action and response reflects how they think others view them, shaping their confidence and behavior in different spaces.
                 </p>
               </div>
 
@@ -609,9 +592,7 @@ const IdentityRoomsApp = () => {
               }}>
                 <h3 style={{ color: '#6b21a8' }}>Reflexivity and Agency</h3>
                 <p style={{ color: '#374151', marginTop: '8px' }}>
-                  While socialization processes shape expected behavior, {groupMembers[currentPerson].name.toLowerCase()} 
-                  retains reflexivity—the ability to think about themselves as an object. Comfort level suggests 
-                  where agency is experienced or constrained by social structures.
+ The notes show that people don’t just act automatically, they think about their roles and make choices about how to behave. Their comfort levels and reactions show moments of self-awareness, where they decide whether to speak up, step back, or adjust depending on how they feel in that situation.
                 </p>
               </div>
 
@@ -622,8 +603,7 @@ const IdentityRoomsApp = () => {
               }}>
                 <h3 style={{ color: '#b45309' }}>Sense of Place & Collective Memory</h3>
                 <p style={{ color: '#374151', marginTop: '8px' }}>
-                  Following Lefebvre and Halbwachs, place is not neutral—it's socially produced and embedded with 
-                  collective memory. This becomes part of identity, showing how selfhood is situated in specific times and places.
+ Each environment, the home, classroom, and social gatherings, brings out different sides of a person. These spaces hold memories and emotions that affect how people act and feel. The collage and notes together show how familiar places and shared experiences shape the way people express themselves and connect with others.
                 </p>
               </div>
 
