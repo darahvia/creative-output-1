@@ -533,15 +533,7 @@ const IdentityRoomsApp = () => {
                 <p style={{ color: '#374151' }}>{roomData.memory}</p>
               </div>
 
-              {/* CONCEPTS */}
-              <div style={{ marginBottom: '24px' }}>
-                <h3 style={styles.heading3}>Theoretical Concepts at Play</h3>
-                <div style={{ marginTop: '12px', display: 'flex', flexWrap: 'wrap' }}>
-                  {roomData.concepts.map((concept, i) => (
-                    <ConceptBadge key={i} concept={concept} />
-                  ))}
-                </div>
-              </div>
+
 
               <button
                 onClick={() => setShowReflection(true)}
